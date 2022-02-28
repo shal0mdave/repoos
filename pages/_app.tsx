@@ -1,5 +1,7 @@
 import "../styles/globals.scss";
 import "react-toastify/dist/ReactToastify.css";
+import "@fontsource/league-spartan";
+
 import { ToastContainer } from "react-toastify";
 import { ChakraProvider } from "@chakra-ui/react";
 import { Provider } from "react-redux";

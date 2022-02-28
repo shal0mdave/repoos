@@ -757,6 +757,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/league-spartan@^4.5.1":
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/@fontsource/league-spartan/-/league-spartan-4.5.1.tgz#37ebad68aaf41da34467beecf9a7917eca1a9e66"
+  integrity sha512-Wy731owo+SIdbQEsjz1LMD891VC+EndfLmA/UeYspRGpM/nKUWW0hKwGRr1K8hjt0rO5uZiHWarAiDzre6u9VQ==
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.3"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.3.tgz#f2564c744b387775b436418491f15fce6601f63e"

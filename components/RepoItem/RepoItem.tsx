@@ -62,7 +62,7 @@ const RepoItem = ({ data, favourites, onFavourite }: RepoItemTypes) => {
           <Heading
             as="h2"
             size="sm"
-            fontWeight="500"
+            fontWeight="600"
             mb="20"
             noOfLines={2}
             className={Styles.RepoItemHeading}
