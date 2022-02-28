@@ -67,7 +67,7 @@ const Repos = () => {
     } else {
       setParams({
         ...params,
-        q: `${searchTerm} in:name ${searchTerm} in:des ${params.q}`,
+        q: `${searchTerm} in:name ${searchTerm} in:description ${params.q}`,
       });
     }
   };
