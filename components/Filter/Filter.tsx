@@ -51,6 +51,7 @@ const Filter = ({
               justifyContent="center"
               alignItems="center"
               width={["100%", "100%", "70%", "70%"]}
+              mr={2}
             >
               <InputGroup maxW={370} size="lg">
                 <Input
@@ -62,7 +63,7 @@ const Filter = ({
                   onKeyPress={(e) => {
                     if (e.key === "Enter") handleSearch(e);
                   }}
-                  placeholder="Looking for a repo? 👀"
+                  placeholder="Find repos by name? 👀"
                 />
                 <InputRightElement width="6.5rem">
                   <Button

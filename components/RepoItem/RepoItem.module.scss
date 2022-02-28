@@ -18,10 +18,12 @@
     }
 
     .RepoLinkBadge{
+        display: flex;
         position: absolute;
         top: 20px;
         right: 20px;
         border-radius: 20px;
+        padding: 5px;
         box-shadow: 0px 0px 5px rgba(213, 209, 227, 0.445), 0px 8px 24px rgb(195 190 214 / 12%);
     }
 
