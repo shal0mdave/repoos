@@ -97,6 +97,7 @@ const Repos = () => {
                   repos.length > 0 ? (
                     <Fragment>
                       <SimpleGrid
+                        id="all-repos"
                         columns={[1, 2, 3, 4]}
                         gap={6}
                         flexDirection={["column", "column", "column", "row"]}
@@ -120,7 +121,10 @@ const Repos = () => {
               </TabPanel>
               <TabPanel>
                 {favourites.length > 0 ? (
-                  <SimpleGrid columns={[1, 2, 3, 4]} gap={6}>
+                  <SimpleGrid 
+                    id="favourite-repos"
+                    columns={[1, 2, 3, 4]} 
+                    gap={6}>
                     {returnReposByLanguages({
                       language: "all",
                       repos: favourites,

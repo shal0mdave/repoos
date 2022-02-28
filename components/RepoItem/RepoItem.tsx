@@ -32,6 +32,7 @@ const RepoItem = ({ data, favourites, onFavourite }: RepoItemTypes) => {
 
   return (
     <Box
+      id="repo-item"
       border="2px"
       borderColor="blue.50"
       w="100%"
@@ -104,6 +105,7 @@ const RepoItem = ({ data, favourites, onFavourite }: RepoItemTypes) => {
           <Button 
             size="md" mb="30"
             onClick={onHandleFavourite}
+            id="favourite-button"
             >
               {checkFavourite()?
               <DeleteIcon />:
