@@ -2,7 +2,7 @@
 
 describe('Repoos Test', () => {
     it('Visits Repoos URL', () => {
-        cy.visit('http://localhost:3001/').wait(5000)
+        cy.visit('http://localhost:3000/').wait(5000)
     })
 
     it('Should add repos to favourite', () => {        
